@@ -8,7 +8,7 @@ spec:
   ports:
     - name: https
       port: 443
-      targetPort: 1323
+      targetPort: 8081
       protocol: "TCP"
   selector:
     app: image-bouncer-webhook
